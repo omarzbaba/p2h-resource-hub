@@ -61,7 +61,7 @@ section{padding:72px 0;} .home section{padding:84px 0;}
 .callout{background:var(--tint);border-left:4px solid var(--blue);border-radius:0 12px 12px 0;padding:22px 26px;margin:22px 0;}
 .callout h4{font-family:'Outfit';font-weight:700;font-size:17px;color:var(--navy);margin-bottom:8px;}
 .callout p{font-size:15.5px;color:#3A3E45;margin-bottom:6px;}
-.confirm{background:#FFF6EC;border-left-color:var(--ember);}
+.confirm{background:#FFF8F0;border:1.6px dashed var(--ember);}
 .confirm .tagx{font-family:'Outfit';font-weight:700;font-size:11px;letter-spacing:.1em;color:var(--ember);text-transform:uppercase;}
 /* contact card */
 .ccard{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:18px;margin:24px 0;}
