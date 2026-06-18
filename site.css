@@ -1,5 +1,8 @@
 
 *{margin:0;padding:0;box-sizing:border-box;}
+.skip{position:absolute;left:-9999px;top:0;z-index:200;background:var(--navy);color:#fff;padding:11px 18px;font-weight:600;border-radius:0 0 8px 0;}
+.skip:focus{left:0;} [dir=rtl] .skip:focus{left:auto;right:0;}
+a:focus-visible,button:focus-visible{outline:3px solid var(--blue);outline-offset:2px;}
 :root{--navy:#14336B;--navy2:#0F2B5B;--blue:#0079C8;--sky:#8DC8E8;--ember:#E87722;
  --ink:#2A2D34;--muted:#667085;--line:#E6ECF3;--tint:#EFF6FC;--card:#FFFFFF;}
 html{scroll-behavior:smooth;}
