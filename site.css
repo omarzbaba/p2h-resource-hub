@@ -150,6 +150,7 @@ footer ul{list-style:none;display:flex;flex-direction:column;gap:10px;font-size:
 [dir=rtl] .more svg,[dir=rtl] .btn svg{transform:scaleX(-1);}
 [dir=rtl] .bcard .num{margin-left:0;margin-right:auto;}
 [dir=rtl] .logo,[dir=rtl] .flogo{direction:ltr;}
+.fcredit b,.about b,.printcredit b{white-space:nowrap;}
 .printcredit{display:none;}
 /* print (PDF handouts) */
 @media print{
